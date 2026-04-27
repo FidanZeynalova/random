@@ -159,3 +159,27 @@ header {
 
 
 }
+
+.section1{
+   .container{
+     width: 75%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }  
+}
+
+footer{
+    .container{
+        position: fixed;
+        bottom:20px;
+        right: 2%;
+        background-color: #183153;
+        color: aliceblue;
+        padding: 10px;
+        border-radius: 50%;
+
+    }
+}
